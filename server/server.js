@@ -21,42 +21,8 @@ app.post('/todos', (req, res) => {
   });
 });
 
-
-
 app.listen(3000, () => {
   console.log('Started on port 3000');
 });
 
-
-
-
-
-// OLD
-//
-//
-// var newTodo = new Todo({
-//   text: 'Something to do'
-//
-// });
-//
-// newTodo.save().then ((doc) => {
-//   console.log(`Saved todo ${doc}`);
-// }, (e) => {
-//   console.log('Unable to save todo')
-// });
-//
-// // User
-// // email property - require it - trim it - set type - set min length of 1
-//
-//
-//
-// var User = new User({
-//   userId: 'Kelly',
-//   email: '  test1@test.com  '
-// });
-//
-// User.save().then ((doc) => {
-//   console.log(`Saved user ${doc}`);
-// }, (e) => {
-//   console.log('Unable to save user')
-// });
+module.exports = {app};
