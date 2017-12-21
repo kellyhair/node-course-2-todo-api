@@ -1,0 +1,14 @@
+{
+  "test":  {
+    "PORT": <xxxx>,
+    "MONGODB_URI": "mongodb://<host>:<port>/<dev db name>",
+    "JWT_SECRET": "<some secret #1>"
+
+  },
+  "development": {
+    "PORT": <xxxx>,
+    "MONGODB_URI": "mongodb://<host>:<port>/<test db name>",
+    "JWT_SECRET": "<some secret #2>"
+
+  }
+}
